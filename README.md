@@ -43,28 +43,32 @@ bu haftalık blog yazıları: [link](https://hackernoon.com/@karimcmahon)
 
   > Uniform :  a type of probability distribution in which all outcomes are equally likely; each variable has the same probability that it will be the outcome. 
 continuous random variable x has a uniform distribution, denoted U(a, b), if its probability density function is:
-            f(x) = 1 / (b−a)
+            
+      f(x) = 1 / (b−a)
 
-  > Nominal : the specific form of the normal distribution depends on 2 parameters: the expectation (µ) and variance (σ^2) - N(m,σ ^2) -
+  > Nominal : the specific form of the normal distribution depends on 2 parameters: the expectation (µ) and variance (σ^2) - N(m,σ ^2)
 
  * µ (expectation) : the distribution center, which corresponds to the maximum height of the graph.
  * σ^2 (variance) : characterizes the range of variation, the “spreading” of the data.
-    f(x) = 1 / (σ√2π) exp (−(x−μ) ^ 2 / 2 σ ^2)
+    
+       f(x) = 1 / (σ√2π) exp (−(x−μ) ^ 2 / 2 σ ^2)
 
 2- Discrete : Only take certain values (can’t be decimal), usually counted
 
   > Bernoulli (binomial) : the upcoming event (positive outcome) is also called "success."
 the ratio of positive outcomes to the total number of tests tends to the probability of the occurrence of this event.
 
-f(x) = (n x) p ^ x(1−p) ^ (n−x)
-    n = the number of experiments in the series
-    x = a random variable (the number of occurrences of event A)
-    p^x = the probability that A happens exactly m times
-    q = 1 - p (the probability that A does not appear in the test)
+    f(x) = (n x) p ^ x(1−p) ^ (n−x)
+    
+        n = the number of experiments in the series
+        x = a random variable (the number of occurrences of event A)
+        p^x = the probability that A happens exactly m times
+        q = 1 - p (the probability that A does not appear in the test)
 
   > Poisson : is obtained as a limiting case of the Bernoulli distribution, if we push p to zero and n to infinity, but so that their product remains constant: np = a. 
 
 f(x) = [(e ^−λ) * (λ^x ) ] / x!
+    
     The average number of events in an interval is designated λ.
     λ = the event rate also called the rate parameter. It is also equal to mean and variance.
     
@@ -74,27 +78,29 @@ Helps you detect outliers and typos, and enable you identify associations among 
 
 There are two types
 1. Descriptive analysis for each individual variable
+
 2. Descriptive analysis for combinations of variables
 
 Variable can be classified into quantitative and categorical
 1. Quantitative variables : represent quantities or numerical values
+
 2. Categorical variables : describe quality or characteristics of individuals
 
 * Descriptive Analysis for each individual variable
 
- * Quantitative variables ;
+  * Quantitative variables ;
 
-   - create a histogram
-   - a box-and-whisker plot to get an idea of the shape of the distribution.
-   - the shape is symmetric ; calculate and present mean and standard deviation
-   - the shape is skewed ; calculate and present median and quartiles.
-   - calculate and present min and max values.
-   - help you identify outlying and improbable values so that you can double check data entry errors.
+     - create a histogram
+     - a box-and-whisker plot to get an idea of the shape of the distribution.
+     - the shape is symmetric ; calculate and present mean and standard deviation
+     - the shape is skewed ; calculate and present median and quartiles.
+     - calculate and present min and max values.
+     - help you identify outlying and improbable values so that you can double check data entry errors.
 
- * Categorical variables ;
+  * Categorical variables ;
 
- - create frequency tables
- - present them in bar charts, pie charts or doughnut charts
+    - create frequency tables
+    - present them in bar charts, pie charts or doughnut charts
 
 * Descriptive analysis for combination of two variables
 
