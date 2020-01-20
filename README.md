@@ -142,3 +142,36 @@ Variable can be classified into quantitative and categorical
                    3. Compute cluster centroids 
                    4. Re-compute cluster centroids 
                    5. Repeat steps 4 and 5 until no improvements are possible 
+
+#### CLASSIFICATION
+
+* Supervised learning method
+* The problem of identifying to which of a set of categories (sub-populations) a new observation belongs, on the basis of a training set of data containing observations (or instances) whose category membership is known.
+* Types of Classification Algorithms:
+
+              1- Linear Models
+                 Logistic Regression
+                 Support Vector Machines
+              2- Nonlinear models
+                 K-nearest Neighbors (KNN)
+                 Kernel Support Vector Machines (SVM)
+                 Naïve Bayes
+                 Decision Tree Classification
+                 Random Forest Classification
+
+##### Naive Bayes
+Naive Bayes is a probabilistic classifier in Machine Learning which is built on the principle of Bayes theorem. Naive Bayes classifier makes an assumption that one particular feature in a class is unrelated to any other feature and that is why it is known as naive.
+
+##### Decision Tree
+Decision tree, as the name states, is a tree-based classifier in Machine Learning. You can consider it to be an upside-down tree, where each node splits into its children based on a condition.
+
+##### Logistic Regression
+Logistic regression is a binary classification algorithm which gives out the probability for something to be true or false.
+
+##### Support Vector Machine (SVM)
+
+* SVMs are classification algorithms used to assign data to various classes.
+* They involve detecting hyperplanes which segregate data into classes.
+* SVMs are very versatile and are also capable of performing linear or nonlinear classification, regression, and outlier detection.
+* Once ideal hyperplanes are discovered, new data points can be easily classified.
+* The optimization objective is to find “maximum margin hyperplane” that is farthest from the closest points in the two classes (these points are called support vectors).
