@@ -18,22 +18,22 @@ bu haftalık blog yazıları: [link](https://hackernoon.com/@karimcmahon)
     - multimodel : for n nodes
 
 2- Measures of variability (spread)
-  *standard deviation : the measurement of average distance between each quantity and mean
-  *mean deviation / mean absolute deviation
-  *variance : square of standard deviation
-  *range : highest - lowest value
-  *percentile : values in data set should always be in ascending order // if k is nth percentile, it implies that n% of the total terms are less than k
-  *quartiles : 
+  * standard deviation : the measurement of average distance between each quantity and mean
+  * mean deviation / mean absolute deviation
+  * variance : square of standard deviation
+  * range : highest - lowest value
+  * percentile : values in data set should always be in ascending order // if k is nth percentile, it implies that n% of the total terms are less than k
+  * quartiles : 
     - First quartile (median of upper half of the data) = 25%
     - Second quartile (median ) = 50 %
     - Third quartile (median of lower half of the data) = 75 %
       - Interquartile range (IQR) : Q3 - Q1
 
 3- Skewness " positive - negative - undefined "
-  *positive skewness : right-hand side is longer than the tail on the left-hand side // mean > mode
-  *negative skewness : left-hand side is longer than the tail on the right hand side // mean < mode
-  *mode skewness : (mean - mode)/standard deviation
-  *median skewness : 3*(mean - median)/standard deviation
+  * positive skewness : right-hand side is longer than the tail on the left-hand side // mean > mode
+  * negative skewness : left-hand side is longer than the tail on the right hand side // mean < mode
+  * mode skewness : (mean - mode)/standard deviation
+  * median skewness : 3*(mean - median)/standard deviation
 
 4- Correlation : [ -1.0 , +1.0] // grafik eğimi positive ise r>0 ; negative ise r<0 ; eğim 0 ise r=0
 
@@ -47,8 +47,8 @@ continuous random variable x has a uniform distribution, denoted U(a, b), if its
 
   > Nominal : the specific form of the normal distribution depends on 2 parameters: the expectation (µ) and variance (σ^2) - N(m,σ ^2) -
 
- *µ (expectation) : the distribution center, which corresponds to the maximum height of the graph.
- *σ^2 (variance) : characterizes the range of variation, the “spreading” of the data.
+ * µ (expectation) : the distribution center, which corresponds to the maximum height of the graph.
+ * σ^2 (variance) : characterizes the range of variation, the “spreading” of the data.
     f(x) = 1 / (σ√2π) exp (−(x−μ) ^ 2 / 2 σ ^2)
 
 2- Discrete : Only take certain values (can’t be decimal), usually counted
@@ -80,28 +80,28 @@ Variable can be classified into quantitative and categorical
 1. Quantitative variables : represent quantities or numerical values
 2. Categorical variables : describe quality or characteristics of individuals
 
-Descriptive Analysis for each individual variable
+* Descriptive Analysis for each individual variable
 
-Quantitative variables ;
+ * Quantitative variables ;
 
-  - create a histogram
-  - a box-and-whisker plot to get an idea of the shape of the distribution.
-  - the shape is symmetric ; calculate and present mean and standard deviation
-  - the shape is skewed ; calculate and present median and quartiles.
-  - calculate and present min and max values.
-  - help you identify outlying and improbable values so that you can double check data entry errors.
+   - create a histogram
+   - a box-and-whisker plot to get an idea of the shape of the distribution.
+   - the shape is symmetric ; calculate and present mean and standard deviation
+   - the shape is skewed ; calculate and present median and quartiles.
+   - calculate and present min and max values.
+   - help you identify outlying and improbable values so that you can double check data entry errors.
 
-Categorical variables ;
+ * Categorical variables ;
 
-- create frequency tables
-- present them in bar charts, pie charts or doughnut charts
+ - create frequency tables
+ - present them in bar charts, pie charts or doughnut charts
 
-Descriptive analysis for combination of two variables
+* Descriptive analysis for combination of two variables
 
-1- Both variables quantitative: Create a scatter plot.
+ 1- Both variables quantitative: Create a scatter plot.
 
-2- One variable categorical and the other quantitative: Calculate summary statistics and box-and-whisker plots of the quantitative variable classified by the categorical variable.
+ 2- One variable categorical and the other quantitative: Calculate summary statistics and box-and-whisker plots of the quantitative variable classified by the categorical variable.
 
-3- Both variables categorical: Prepare a contingency table.
+ 3- Both variables categorical: Prepare a contingency table.
 
 ### 1.2 Makine Öğrenimine Giriş
