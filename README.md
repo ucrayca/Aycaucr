@@ -110,4 +110,35 @@ Variable can be classified into quantitative and categorical
 
      3- Both variables categorical: Prepare a contingency table.
 
-### 1.2 Makine Öğrenimine Giriş
+### 1.2 Introduction Machine Learning
+
+#### CLUSTERING
+
+* Unsupervised learning method
+
+* The task of dividing the population or data points into a number of groups such that data points in the same groups are more similar to other data points in the same group than those in other groups. In simple words, the aim is to segregate groups with similar traits and assign them into clusters.
+
+* Clustering is very much important as it determines the intrinsic grouping among the unlabeled data present. There are no criteria for a good clustering. It depends on the user, what is the criteria they may use which satisfy their need.
+
+* Divided into two subgroups :
+
+      Hard Clustering: In hard clustering, each data point either belongs to a cluster completely or not.
+
+      Soft Clustering: In soft clustering, instead of putting each data point into a separate cluster, a probability or likelihood of that data point to be in those clusters is assigned.
+
+* Clustering Methods :
+
+      1. Density-Based Methods
+      2. Hierarchical Based Methods 
+      3. Partitioning Methods
+      4. Grid-based Methods
+
+* Clustering Algorithms :
+
+> K-means clustering algorithm : It is the simplest unsupervised learning algorithm that solves clustering problem. K-means algorithm partition n observations into k clusters where each observation belongs to the cluster with the nearest mean serving as a prototype of the cluster .
+                  
+                   1. Specify the desired number of clusters K
+                   2. Randomly assign each data point to a cluster 
+                   3. Compute cluster centroids 
+                   4. Re-compute cluster centroids 
+                   5. Repeat steps 4 and 5 until no improvements are possible 
