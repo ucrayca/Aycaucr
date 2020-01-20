@@ -11,9 +11,9 @@ bu haftalık blog yazıları: [link](https://hackernoon.com/@karimcmahon)
 #### Descriptive Statistics
 
 1- Measures of central tendency
-  *mean(average)
-  *median (middle term)
-  *mode(highest frequency)
+  * mean(average)
+  * median (middle term)
+  * mode(highest frequency)
     - bimodal : two values appeared same time and more than the rest of the values then the data set
     - multimodel : for n nodes
 
@@ -80,9 +80,9 @@ Variable can be classified into quantitative and categorical
 1. Quantitative variables : represent quantities or numerical values
 2. Categorical variables : describe quality or characteristics of individuals
 
-**Descriptive Analysis for each individual variable
+Descriptive Analysis for each individual variable
 
-**Quantitative variables ;
+Quantitative variables ;
 
   - create a histogram
   - a box-and-whisker plot to get an idea of the shape of the distribution.
@@ -91,15 +91,17 @@ Variable can be classified into quantitative and categorical
   - calculate and present min and max values.
   - help you identify outlying and improbable values so that you can double check data entry errors.
 
-**Categorical variables ;
+Categorical variables ;
 
 - create frequency tables
 - present them in bar charts, pie charts or doughnut charts
 
-**Descriptive analysis for combination of two variables
+Descriptive analysis for combination of two variables
 
 1- Both variables quantitative: Create a scatter plot.
+
 2- One variable categorical and the other quantitative: Calculate summary statistics and box-and-whisker plots of the quantitative variable classified by the categorical variable.
+
 3- Both variables categorical: Prepare a contingency table.
 
 ### 1.2 Makine Öğrenimine Giriş
