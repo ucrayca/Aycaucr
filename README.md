@@ -104,10 +104,10 @@ Variable can be classified into quantitative and categorical
 
 * Descriptive analysis for combination of two variables
 
- 1- Both variables quantitative: Create a scatter plot.
+     1- Both variables quantitative: Create a scatter plot.
 
- 2- One variable categorical and the other quantitative: Calculate summary statistics and box-and-whisker plots of the quantitative variable classified by the categorical variable.
+     2- One variable categorical and the other quantitative: Calculate summary statistics and box-and-whisker plots of the quantitative variable classified by the categorical variable.
 
- 3- Both variables categorical: Prepare a contingency table.
+     3- Both variables categorical: Prepare a contingency table.
 
 ### 1.2 Makine Öğrenimine Giriş
